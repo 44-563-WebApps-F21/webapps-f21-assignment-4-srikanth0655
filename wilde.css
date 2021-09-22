@@ -29,3 +29,16 @@
 .algernon{
     color: rgb(255, 153, 153);
 }
+table{
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 1px solid black;
+    text-align: left;
+    padding: 5px;
+}
+
+tr:nth-child(even){
+background-color:silver;
+}
